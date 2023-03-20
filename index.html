@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html id="main">
+<html class="main">
     <head>
         <link rel="stylesheet" type="text/css" href="CSS/robbiesStyle.css">
         <script src="JS/robbiesScript.js"></script>
+        <title>Robbie's Corner Homepage</title>
     </head>
-    <nav>
-        <a href="HTML/home.html" target="mainFrame"><div class="navButtons">Home</div></a>
-        <a href="HTML/hisLife.html" target="mainFrame"><div class="navButtons">His Life</div></a>
-        <a href="HTML/plan.html" target="mainFrame"><div class="navButtons">Our Plan</div></a>
-        <a href="HTML/carStats.html" target="mainFrame"><div class="navButtons">Car Safety Stats</div></a>
-    </nav>
+    <header>
+        <h1>Robbie's Corner Homepage</h1>
+    </header>
+    <body onload="initialise()">
+        <iframe src="HTML/nav.html" id="navFrame" scrolling="no"></iframe>
+        <p style="text-align:center;">
+            This is a website about the life and legacy of Robert Harradine, in the form of a plaque signifying the location of Robbie's Corner.
+            <br><br>
+            The plaque looks as such:
+        </p>
+        <img src="../IMAGES/robbiesPlaque.png" id="robbiesPlaqueImg" class="homeImg">
+        <p style="text-align:center;">
+            On the Rostrevor College Map below, the location of Robbie's Corner is marked out:
+        </p>
+        <img src="../IMAGES/rostrevorMap.png" id="rostrevorMapImg" class="homeImg">
+    </body>
     <body>
-        <iframe src="HTML/home.html" name="mainFrame" id="screen">
+        
     </body>
 </html>
