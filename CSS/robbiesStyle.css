@@ -38,15 +38,26 @@ h1
     vertical-align: middle;
     color:white;
 }
-p
+p, ul
 {
     color:white;
-    background-color:rgba(0,0,0,0.85)
+    background-color:rgba(0,0,0,0.85);
 }
 html
 {
+    background-color:#6E260E;
     background-image: url(../IMAGES/background2.png);
     overflow-x:hidden;
+}
+figcaption
+{
+    text-align: center;
+}
+span 
+{
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    font-style: italic;
 }
 body
 {
@@ -99,4 +110,7 @@ body
 {
     margin-left:50%;
     transform:translate(-50%,0);
+    color:white;
+    background-color:rgba(0,0,0,0.85);
+    white-space:pre;
 }
