@@ -9,7 +9,13 @@
     <header>
         <h1>Robbie's Corner Homepage</h1>
     </header>
-    <body onload="initialise()">
+    <div id="dimmer"></div>
+    <div id="ackOfCountry">
+        <h1>Acknowledgement of Country</h1>
+        <p style="background-color:initial; text-align:center;">We acknowledge and respect the traditional Kaurna peoples of the Adelaide Plains.</p>
+        <button style="margin-left:50%; transform:translate(-50%,0);" onclick="closeAck()">Close</button>
+    </div>
+    <body>
         <iframe src="HTML/nav.html" id="navFrame" scrolling="no"></iframe>
         <p style="text-align:center;">
             This is a website about the life and legacy of Robert Harradine, in the form of a plaque signifying the location of Robbie's Corner.
@@ -34,8 +40,5 @@
         <img src="IMAGES/rostrevorMap.png" id="rostrevorMapImg" class="homeImg" alt="A map of Rostrevor College with the location of Robbie's Corner circled in red.">
         <figcaption><span>(Rostrevor College, 20XX)</span></figcaption>
         </figure>
-    </body>
-    <body>
-        
     </body>
 </html>
