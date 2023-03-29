@@ -42,11 +42,13 @@ h1, h3, #bibliographySubtitle
     vertical-align: middle;
     color:white;
     font-style: normal !important;
+    font-size:25px;
 }
 p, ul
 {
     color:white;
     background-color:rgba(0,0,0,0.85);
+    font-size:20px;
 }
 html
 {
